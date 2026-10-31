@@ -21,7 +21,7 @@ public class pill_player : MonoBehaviour
     {
         pillRB = GetComponent<Rigidbody2D>();
         //random spawn
-        pillRB.transform.position=new Vector3(Random.Range(xlim,-xlim),Random.Range(ylim,-ylim),0);
+        pillRB.transform.position=new Vector3(Random.Range(xlim,-xlim),Random.Range(ylim,-ylim),1);
 
     }
 
