@@ -442,7 +442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   player: {fileID: 0}
-  chasingSpeed: 20
+  chasingSpeed: 50
 --- !u!50 &484042909
 Rigidbody2D:
   serializedVersion: 5
