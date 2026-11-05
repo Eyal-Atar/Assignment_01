@@ -4,7 +4,7 @@ public class chasing_pill : MonoBehaviour
 {
     //
     public GameObject player;
-    public float chasingSpeed=5f;
+    public float chasingSpeed=30f;
     private Rigidbody2D chasingRB;
 
     private Vector2 targetVector;
